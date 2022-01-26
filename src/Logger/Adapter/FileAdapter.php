@@ -2,10 +2,12 @@
 
 namespace EfTech\ContactList\Infrastructure\Logger\Adapter;
 
+use EfTech\ContactList\Infrastructure\Logger\AdapterInterface;
+
 /**
  * Запись лога в файл
  */
-class FileAdapter implements \EfTech\ContactList\Infrastructure\Logger\AdapterInterface
+class FileAdapter implements AdapterInterface
 {
     /**
      * @var string путь до файла где пишутся логи

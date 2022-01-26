@@ -2,10 +2,12 @@
 
 namespace EfTech\ContactList\Infrastructure\Logger\Adapter;
 
+use EfTech\ContactList\Infrastructure\Logger\AdapterInterface;
+
 /**
  * Адпатер пишет логи в никуда
  */
-class NullAdapter implements \EfTech\ContactList\Infrastructure\Logger\AdapterInterface
+class NullAdapter implements AdapterInterface
 {
 
     /**

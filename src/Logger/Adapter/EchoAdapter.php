@@ -2,7 +2,9 @@
 
 namespace EfTech\ContactList\Infrastructure\Logger\Adapter;
 
-class EchoAdapter implements \EfTech\ContactList\Infrastructure\Logger\AdapterInterface
+use EfTech\ContactList\Infrastructure\Logger\AdapterInterface;
+
+class EchoAdapter implements AdapterInterface
 {
 
     /**
