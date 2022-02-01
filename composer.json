@@ -1,7 +1,7 @@
 {
   "name" : "eff-tech/logger",
   "description": "Electronic library. An example of an application",
-  "type": "framework project",
+  "type": "library",
   "homepage": "https://git.effective-team.ru/rnd/educational-projects/interns/2021-flow-1/fedyancev.d.a/logger",
   "readme": "readme",
   "license": "proprietary",
@@ -35,5 +35,4 @@
     "phpunit/phpunit": "9.*",
     "squizlabs/php_codesniffer": "^3.6"
   }
-
 }
