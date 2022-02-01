@@ -6,7 +6,6 @@ use EfTech\ContactList\Infrastructure\Logger\AdapterInterface;
 
 class EchoAdapter implements AdapterInterface
 {
-
     /**
      * @inheritDoc
      */

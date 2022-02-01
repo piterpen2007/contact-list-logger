@@ -9,12 +9,10 @@ use EfTech\ContactList\Infrastructure\Logger\AdapterInterface;
  */
 class NullAdapter implements AdapterInterface
 {
-
     /**
      * @inheritDoc
      */
     public function write(string $logLevel, string $msg): void
     {
-
     }
 }
